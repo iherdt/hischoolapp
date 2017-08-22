@@ -2,5 +2,7 @@
   "name": "HiSchoolApp v1",
   "app_id": "444c636e",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
