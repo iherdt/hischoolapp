@@ -4,3 +4,4 @@ package-lock.json
 www/*
 platforms/*
 plugins/*
+resources/*.png.md5
