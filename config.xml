@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.nfte.hischoolapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HiSchoolApp V1</name>
+    <name>H!School</name>
     <description />
     <author email="info@hischool.today" href="http://hischool.today/">HiSchool</author>
     <content src="index.html" />
@@ -80,7 +80,7 @@
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <engine name="android" spec="^6.1.2" />
-    <engine name="ios" spec="^4.3.1" />
+    <engine name="ios" spec="^4.4.0" />
     <plugin name="call-number" spec="^1.0.1" />
     <plugin name="cordova-plugin-admob-free" spec="^0.9.0" />
     <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
@@ -90,7 +90,9 @@
     </plugin>
     <plugin name="cordova-plugin-console" spec="^1.0.7" />
     <plugin name="cordova-plugin-device" spec="^1.1.6" />
-    <plugin name="cordova-plugin-geolocation" spec="^2.4.3" />
+    <plugin name="cordova-plugin-geolocation" spec="^2.4.3">
+        <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
+    </plugin>
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.2" />
     <plugin name="cordova-plugin-googlemaps" spec="^1.4.0">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyBf7t1tiqkPCeRm0bqObGn4oKj-4osnoMM" />
@@ -106,9 +108,10 @@
     <plugin name="cordova-plugin-request-location-accuracy" spec="^2.2.1" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+    <plugin name="cordova-plugin-whitelist" spec="git+https://github.com/apache/cordova-plugin-whitelist.git" />
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.1.8" />
     <plugin name="cordova.plugins.diagnostic" spec="^3.6.5" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
+    <plugin name="mx.ferreyra.callnumber" spec="^1.0.1" />
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="^3.2.2" />
 </widget>
