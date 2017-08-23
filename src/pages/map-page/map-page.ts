@@ -9,7 +9,7 @@ import { Geolocation, GeolocationOptions } from '@ionic-native/geolocation';
 import { CameraPosition, GoogleMap, GoogleMapsEvent,
   LatLng, LatLngBounds, Geocoder, GeocoderRequest,
   GeocoderResult, Marker } from '@ionic-native/google-maps';
-
+declare var google;
 @IonicPage()
 @Component({
   selector: 'page-map-page',
@@ -255,5 +255,8 @@ export class MapPage extends BasePage {
       console.warn('Native: tried calling GoogleMaps.getCameraPosition, but Cordova is not available. Make sure to include cordova.js or run in a device/simulator');
     }
   }
-
+  visible = false;
+  toggle() {
+   this.visible = !this.visible;
+  }
 }
