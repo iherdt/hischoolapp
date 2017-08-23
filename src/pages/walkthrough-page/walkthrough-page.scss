@@ -6,11 +6,11 @@ page-walkthrough-page {
     .swiper-wrapper {
 
       .slide-1 {
-        background-color: color($colors, dark, base);
+        background-color: color($colors, primary, base);
       }
 
       .slide-2 {
-        background-color: color($colors, primary, base);
+        background-color: color($colors, dark, base);
       }
 
       .slide-3 {
