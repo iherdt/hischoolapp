@@ -5,3 +5,6 @@ www/*
 platforms/*
 plugins/*
 resources/*.png.md5
+config.xml
+package.json
+.vscode/plugins.json
