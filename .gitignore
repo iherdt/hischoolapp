@@ -5,4 +5,5 @@ www/*
 platforms/*
 plugins/*
 resources/*.png.md5
+npm-debug.log
 .vscode/plugins.json
