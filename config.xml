@@ -5,6 +5,15 @@
     <author email="info@hischool.today" href="http://hischool.today/">H!School</author>
     <content src="index.html" />
     <access origin="*" />
+    <!-- for google maps -->
+    <access origin="*.googleapis.com" />
+    <access origin="*.gstatic.com" />
+    <access origin="*.google.com" />
+    <access origin="maps.googleapis.com" />
+    <access origin="maps.gstatic.com" />
+    <access origin="mt0.googleapis.com" />
+    <access origin="mt1.googleapis.com" />
+    <access origin="csi.gstatic.com" /> 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
