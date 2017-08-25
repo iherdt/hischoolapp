@@ -5,7 +5,6 @@
     <author email="info@hischool.today" href="http://hischool.today/">H!School</author>
     <content src="index.html" />
     <access origin="*" />
-    <!-- for google maps -->
     <access origin="*.googleapis.com" />
     <access origin="*.gstatic.com" />
     <access origin="*.google.com" />
@@ -13,7 +12,7 @@
     <access origin="maps.gstatic.com" />
     <access origin="mt0.googleapis.com" />
     <access origin="mt1.googleapis.com" />
-    <access origin="csi.gstatic.com" /> 
+    <access origin="csi.gstatic.com" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -87,13 +86,11 @@
     <preference name="SplashScreenBackgroundColor" value="0xFFFFFFFF" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
+    <preference name="OpenAllWhitelistURLsInWebView" value="true" />
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <preference name="SplashShowOnlyFirstTime" value="false" />
-    <engine name="android" spec="^6.2.3" />
-    <engine name="browser" spec="^4.1.0" />
-    <engine name="ios" spec="^4.4.0" />
     <plugin name="call-number" spec="^1.0.1" />
     <plugin name="cordova-plugin-admob-free" spec="^0.9.0" />
     <plugin name="cordova-plugin-browsertab" spec="^0.2.0" />
@@ -127,4 +124,7 @@
     <plugin name="cordova.plugins.diagnostic" spec="^3.6.5" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
     <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="^3.2.2" />
+    <engine name="android" spec="^6.2.3" />
+    <engine name="browser" spec="^4.1.0" />
+    <engine name="ios" spec="^4.4.0" />
 </widget>
