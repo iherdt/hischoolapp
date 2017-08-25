@@ -126,8 +126,8 @@
             },
             "cordova-plugin-google-analytics": {},
             "cordova-plugin-googlemaps": {
-                "API_KEY_FOR_ANDROID": "AIzaSyBf7t1tiqkPCeRm0bqObGn4oKj-4osnoMM",
-                "API_KEY_FOR_IOS": "AIzaSyA9FMwKi_PZowS3sO6aKGOYGH_lzIY8Dv0",
+                "API_KEY_FOR_ANDROID": "AIzaSyBBbWgMBrghpa_ShfSh8SXoCJkIfZASjRA",
+                "API_KEY_FOR_IOS": "AIzaSyD8bkVk3OR67AnVha0MVcDGqtBEF-2mpjM",
                 "NSLOCATIONWHENINUSEUSAGEDESCRIPTION": "Show your location on the map",
                 "NSLOCATIONALWAYSUSAGEDESCRIPTION": "Trace your location on the map"
             },
