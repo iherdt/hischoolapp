@@ -1,6 +1,6 @@
 {
-  "name": "HiSchoolApp",
-  "short_name": "HiSchoolApp",
+  "name": "H!School",
+  "short_name": "hischool",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
