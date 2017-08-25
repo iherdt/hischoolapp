@@ -2,7 +2,7 @@ export class AppConfig {
 
   /* Parse Server URL */
    public static get SERVER_URL(): string {
-     return 'http://hischool.today/parse/';
+     return 'http://hischool.today/1/';
    }
 
    /* Parse App ID  */
