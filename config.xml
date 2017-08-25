@@ -99,8 +99,8 @@
     </plugin>
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.2" />
     <plugin name="cordova-plugin-googlemaps" spec="^1.4.0">
-        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyBf7t1tiqkPCeRm0bqObGn4oKj-4osnoMM" />
-        <variable name="API_KEY_FOR_IOS" value="AIzaSyA9FMwKi_PZowS3sO6aKGOYGH_lzIY8Dv0" />
+        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyBBbWgMBrghpa_ShfSh8SXoCJkIfZASjRA" />
+        <variable name="API_KEY_FOR_IOS" value="AIzaSyD8bkVk3OR67AnVha0MVcDGqtBEF-2mpjM" />
         <variable name="NSLOCATIONWHENINUSEUSAGEDESCRIPTION" value="Show your location on the map" />
         <variable name="NSLOCATIONALWAYSUSAGEDESCRIPTION" value="Trace your location on the map" />
     </plugin>
