@@ -13,30 +13,25 @@
   
   <img margin class="logo" src="assets/img/icon.png" width="120">
 
-  <form [formGroup]="form" (ngSubmit)="onSubmit()" novalidate>
 
-
+<ion-list radio-group>
+  <ion-list-header>
+  <h1 style:color="white">Who are you?</h1>
+  </ion-list-header>
     <ion-item>
       <ion-label stacked color="primary">"Middle Schooler"</ion-label>
-      <ion-input type="radio" formControlName="Middle Schooler"></ion-input>
+      <ion-radio value="middleschooler"></ion-radio>
     </ion-item>
 
     <ion-item>
       <ion-label stacked color="primary">"High Schooler"</ion-label>
-      <ion-input type="radio" formControlName="High Schooler"></ion-input>
+      <ion-radio value="highchooler"></ion-radio>
     </ion-item>
 
     <ion-item>
       <ion-label stacked color="primary">"Teacher"</ion-label>
-      <ion-input type="radio" formControlName="Teacher"></ion-input>
+      <ion-radio value="teacher"></ion-radio>
     </ion-item>
-  
-    <div padding>
-      <button type="submit" color="primary" ion-button block
-      [disabled]="!form.valid">
-        "Next" 
-      </button>
-    </div>
+  </ion-list>
 
-  </form>
 </ion-content>
