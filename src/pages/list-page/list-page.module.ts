@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { Wizardpage } from './wizard-page';
-
+import { ListPage } from './list-page';
 
 @NgModule({
     declarations: [
-      Wizardpage,
+      ListPage,
     ],
     imports: [
-      IonicPageModule.forChild(Wizardpage),
+      IonicPageModule.forChild(ListPage),
     ],
     exports: [
-      Wizardpage
+      ListPage
     ]
   })
-  export class WizardpageModule {
+  export class ListPageModule {
       
   }

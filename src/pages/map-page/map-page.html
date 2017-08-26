@@ -13,9 +13,8 @@
       placeholder="{{ 'ENTER_ADDRESS' | translate }}"
       (ionInput)="onSearchAddress($event)"></ion-searchbar>
       <ion-buttons end>
-        <button ion-button icon-only (click)="toggle()">
-          <ion-icon name="ios-list-box-outline" *ngIf="!visible"></ion-icon>
-          <ion-icon name="md-pin" *ngIf='visible'></ion-icon>
+        <button ion-button icon-only (click)="goToList()">
+          <ion-icon name="ios-list-box-outline"></ion-icon>
           </button>
       </ion-buttons>  
   </ion-toolbar>

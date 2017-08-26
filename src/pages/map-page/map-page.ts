@@ -21,7 +21,6 @@ export class MapPage extends BasePage {
   places: Place[];
   map: GoogleMap;
   isViewLoaded: boolean;
-
   constructor(public injector: Injector,
     private events: Events,
     private storage: LocalStorage,
@@ -255,8 +254,7 @@ export class MapPage extends BasePage {
       console.warn('Native: tried calling GoogleMaps.getCameraPosition, but Cordova is not available. Make sure to include cordova.js or run in a device/simulator');
     }
   }
-  visible = false;
-  toggle() {
-   this.visible = !this.visible;
+  goToList() {
+    this.navigateTo('ListPage', {});
   }
 }
