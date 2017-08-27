@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons start>
+      <button ion-button (click)="onCancel()">
+        <span showWhen="ios,core"> "CLOSE"</span>
+        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+ </ion-toolbar>
+</ion-header>
+
+<ion-content padding text-center>
+  
+  <img margin class="logo" src="assets/img/icon.png" width="120">
+
+<form action="">
+<ion-list >
+  <ion-list-header>
+    <h1 style:color="white">
+    What areas do you teach?
+  </h1>
+</ion-list-header>
+  
+  	<ion-item><ion-checkbox [(ngmodel)]="subject-areas" >A</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >B</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >C</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >D</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >E</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >F</ion-checkbox></ion-item><br>
+
+    </ion-list>
+
+    <ion-list>
+    <ion-list-header>
+      <h1 style:color="white">
+    Prefered travel time
+      </h1></ion-list-header>
+  
+      <ion-item>
+        <ion-label  color="primary">30 mins or less</ion-label>
+        <ion-radio value=">30" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label color="primary">1 hour or less</ion-label>
+        <ion-radio value=">60" ></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label color="primary" >Over a hour</ion-label>
+        <ion-radio value="60>"></ion-radio>
+      </ion-item>
+
+</ion-list>
+<ion-list>
+  <ion-list-header><h1 style:color="white">
+    What are your qualifications?</h1>
+  </ion-list-header>
+  
+  <ion-item>
+      <ion-label  color="primary">Associates Degree</ion-label>
+      <ion-radio value="Associate" ></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary">Bachelor's Degree</ion-label>
+      <ion-radio value="Bachelor" ></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label color="primary" >Masters Degree</ion-label>
+      <ion-radio value="Master"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+        <ion-label  color="primary">Doctorate</ion-label>
+        <ion-radio value="Doctorate" ></ion-radio>
+      </ion-item>
+  
+</ion-list>
+<h1 style:color="white"> Ideal income </h1>
+<ion-item>
+    <ion-label floating color="primary"> Your Highschool? </ion-label>
+  <ion-input type="text" formControlName="Perfered income">    </ion-input>
+  </ion-item>
+  </ion-list>
+  <div padding>
+    <button type="submit" color="primary" ion-button block (click)=Questype() >
+      NEXT 
+    </button>
+  
+  </div>
+</form>
+</ion-content>
