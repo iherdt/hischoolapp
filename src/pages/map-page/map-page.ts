@@ -257,4 +257,7 @@ export class MapPage extends BasePage {
   goToList() {
     this.navigateTo('ListPage', {});
   }
+  goToFilter() {
+    this.navigateTo('Filter', {animate: true, animation:'transition', duration:500, direction: 'forward'});
+  }
 }

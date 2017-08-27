@@ -7,7 +7,7 @@
   </ion-navbar>
   <ion-toolbar color="primary">
       <ion-buttons left>
-          <button ion-button>Filter</button>
+          <button ion-button (click)="goToFilter()">Filter</button>
       </ion-buttons>
     <ion-searchbar color="dark" debounce="2000"
       placeholder="{{ 'ENTER_ADDRESS' | translate }}"
