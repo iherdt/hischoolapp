@@ -1,11 +1,6 @@
 <ion-header>
   <ion-toolbar color="dark">
-    <ion-buttons start>
-      <button ion-button (click)="onCancel()">
-        <span showWhen="ios,core"> "CLOSE"</span>
-        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
-      </button>
-    </ion-buttons>
+    
  </ion-toolbar>
 </ion-header>
 
@@ -30,7 +25,7 @@
 
     </ion-list>
 
-    <ion-list>
+    <ion-list radio-group>
     <ion-list-header>
       <h1 style:color="white">
     Prefered travel time
@@ -52,29 +47,29 @@
       </ion-item>
 
 </ion-list>
-<ion-list>
+<ion-list radio-group>
   <ion-list-header><h1 style:color="white">
     What are your qualifications?</h1>
   </ion-list-header>
   
   <ion-item>
       <ion-label  color="primary">Associates Degree</ion-label>
-      <ion-radio value="Associate" ></ion-radio>
+      <ion-radio name="degree" value="Associate" ></ion-radio>
     </ion-item>
 
     <ion-item>
       <ion-label color="primary">Bachelor's Degree</ion-label>
-      <ion-radio value="Bachelor" ></ion-radio>
+      <ion-radio name="degree"value="Bachelor" ></ion-radio>
     </ion-item>
 
     <ion-item>
       <ion-label color="primary" >Masters Degree</ion-label>
-      <ion-radio value="Master"></ion-radio>
+      <ion-radio name="degree" value="Master"></ion-radio>
     </ion-item>
 
     <ion-item>
         <ion-label  color="primary">Doctorate</ion-label>
-        <ion-radio value="Doctorate" ></ion-radio>
+        <ion-radio name="degree" value="Doctorate" ></ion-radio>
       </ion-item>
   
 </ion-list>
@@ -85,7 +80,7 @@
   </ion-item>
   
   <div padding>
-    <button type="submit" color="primary" ion-button block (click)="onsubmit(),gotomap()">
+    <button type="submit" color="primary" ion-button block (click)="gotomap()">
       NEXT 
     </button>
   

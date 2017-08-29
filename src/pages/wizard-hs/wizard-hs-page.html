@@ -1,11 +1,6 @@
 <ion-header>
   <ion-toolbar color="dark">
-    <ion-buttons start>
-      <button ion-button (click)="onCancel()">
-        <span showWhen="ios,core"> "CLOSE"</span>
-        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
-      </button>
-    </ion-buttons>
+    
  </ion-toolbar>
 </ion-header>
 
@@ -28,16 +23,94 @@
 <p>
     What areas are you interested in?
   </p>
-  
-  	<ion-checkbox name="Interest" ></ion-checkbox><br>
-      <ion-checkbox name="Interest" ></ion-checkbox><br>
-        <ion-checkbox name="Interest" ></ion-checkbox><br>
-          <ion-checkbox name="Interest" ></ion-checkbox><br>
-            <ion-checkbox name="Interest" ></ion-checkbox><br>
-              <ion-checkbox name="Interest" ></ion-checkbox><br>
+  <ion-item> 
+   
+    <ion-label color="white">Law and Government </ion-label>
+    <ion-checkbox name="Interest" ></ion-checkbox>
+  </ion-item>
+  <ion-item> 
+      
+       <ion-label color="white">Humanities </ion-label>
+       <ion-checkbox name="Interest" ></ion-checkbox>
+     </ion-item>
+     <ion-item> 
+        
+         <ion-label color="white">Engineering </ion-label>
+         <ion-checkbox name="Interest" ></ion-checkbox>
+       </ion-item>
+       <ion-item> 
+          
+           <ion-label color="white"> Performing Arts </ion-label>
+           <ion-checkbox name="Interest" ></ion-checkbox>
+         </ion-item>
+         <ion-item> 
+            
+             <ion-label color="white">Science and Math</ion-label>
+             <ion-checkbox name="Interest" ></ion-checkbox>
+           </ion-item>
+           <ion-item> 
+              
+               <ion-label color="white">Business </ion-label>
+               <ion-checkbox name="Interest" ></ion-checkbox>
+             </ion-item>
+
+             <ion-item> 
+                
+                 <ion-label color="white">Visual Arts </ion-label>
+                 <ion-checkbox name="Interest" ></ion-checkbox>
+               </ion-item>
+
+               <ion-item> 
+                  
+                   <ion-label color="white"> Health and Medicine </ion-label>
+                   <ion-checkbox name="Interest" ></ion-checkbox>
+                 </ion-item>
+
+                 <ion-item> 
+                    
+                     <ion-label color="white"> Communications </ion-label>
+                     <ion-checkbox name="Interest" ></ion-checkbox>
+                   </ion-item>
+
+                   <ion-item> 
+                      
+                       <ion-label color="white">Architecture </ion-label>
+                       <ion-checkbox name="Interest" ></ion-checkbox>
+                     </ion-item>
+
+                     <ion-item> 
+                        
+                         <ion-label color="white">Film/Photography </ion-label>
+                         <ion-checkbox name="Interest" ></ion-checkbox>
+                       </ion-item>
+
+                       <ion-item> 
+                          
+                           <ion-label color="white"> Culinary </ion-label>
+                           <ion-checkbox name="Interest" ></ion-checkbox>
+                         </ion-item>
+
+                         <ion-item> 
+                            
+                             <ion-label color="white"> Teaching </ion-label>
+                             <ion-checkbox name="Interest" ></ion-checkbox>
+                           </ion-item>
+
+                           <ion-item> 
+                              
+                               <ion-label color="white">Zoned </ion-label>
+                               <ion-checkbox name="Interest" ></ion-checkbox>
+                             </ion-item>
+
+                             <ion-item> 
+                                
+                                 <ion-label color="white"> Hospitality, Travel and Tourism </ion-label>
+                                 <ion-checkbox name="Interest" ></ion-checkbox>
+                               </ion-item>
+
 
   <div padding>
-    <button type="submit" color="primary" ion-button block (click)="onsubmit(),gotomap()" >
+    <button type="submit" color="primary" ion-button block (click)="gotomap()" >
       NEXT 
     </button>
   
