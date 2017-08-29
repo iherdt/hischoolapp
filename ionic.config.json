@@ -1,6 +1,7 @@
 {
   "name": "H!School",
   "app_id": "09988fd0",
+  "app_id_bkup": "444c636e",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
