@@ -29,8 +29,7 @@ export class Wizardtpage extends BasePage {
 
 
 
-  Questype(){
-
+  onSubmit(){
     
   }
 
