@@ -27,8 +27,7 @@ export class Wizardtpage{
 
 
 
-  Questype(){
-
+  onSubmit(){
     
   }
 
