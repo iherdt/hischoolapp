@@ -42,6 +42,7 @@ export class AddPlacePage extends BasePage {
       description: new FormControl(''),
       address: new FormControl(''),
       phone: new FormControl(''),
+      gpa: new FormControl(''),
       website: new FormControl('http://')
     });
 
@@ -211,6 +212,7 @@ export class AddPlacePage extends BasePage {
     this.place.address = this.form.value.address;
     this.place.website = this.form.value.website;
     this.place.phone = this.form.value.phone;
+    this.place.gpa = this.form.value.gpa;
 
     this.showLoadingView();
 

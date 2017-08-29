@@ -143,6 +143,14 @@ export class Place extends Parse.Object {
     this.set('phone', val);
   }
 
+  get gpa(): string {
+    return this.get('gpa');
+  }
+
+  set gpa(val) {
+    this.set('gpa', val);
+  }
+
   get website(): string {
     return this.get('website');
   }
