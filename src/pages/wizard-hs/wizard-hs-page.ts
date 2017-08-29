@@ -16,7 +16,7 @@ export class Wizardhspage {
 
     };
 
-  goToHome() {
+  gotomap() {
     this.navCtrl.setRoot('CategoriesPage');
   };
 
