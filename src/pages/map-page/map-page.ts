@@ -66,7 +66,7 @@ export class MapPage extends BasePage {
       this.showLoadingView();
 
       this.map = new GoogleMap('map', {
-        styles: MapStyle.dark(),
+        styles: MapStyle.midnight(),
         backgroundColor: '#333333'
       });
 

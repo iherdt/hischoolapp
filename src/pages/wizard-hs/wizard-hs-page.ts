@@ -1,6 +1,6 @@
 import { IonicPage } from 'ionic-angular';
 import { Component } from '@angular/core';
-
+import { NavController } from 'ionic-angular';
 import { FormGroup,} from '@angular/forms';
 
 
@@ -11,14 +11,15 @@ import { FormGroup,} from '@angular/forms';
 })
 export class Wizardhspage {
 
-  Questype(){
+  constructor(
+    public navCtrl: NavController) {
+
+    };
+
+  goToHome() {
+    this.navCtrl.setRoot('CategoriesPage');
+  };
 
     
   }
 
-// this.Current_School = new FormGroup({
-
-  
-// })
-  
-}
