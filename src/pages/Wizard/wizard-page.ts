@@ -11,29 +11,35 @@ import { NavController, MenuController } from 'ionic-angular';
   selector: 'page-wizard-page',
   templateUrl: 'wizard-page.html'
 })
-export class Wizardpage  { 
+export class Wizardpage extends BasePage { 
 
-  // constructor(injector: Injector,
-  //   private formBuilder: FormBuilder,
-  //   private events: Events,
-  //   private viewCtrl: ViewController) {
+  constructor(injector: Injector,
+    private formBuilder: FormBuilder,
+    private events: Events,
+    private viewCtrl: ViewController) {
 
-  //   super(injector)
+    super(injector)
 
     
-  //   };
-  //   enableMenuSwipe() {
-  //     return false;
-  //   }
+    };
+    enableMenuSwipe() {
+      return false;
+    }
   Questype(){
 
     
   }
 
- 
+ Mpage(){
+this.navigateTo('Wizardmspage', {})
+ }
 
-  // onCancel() {
-  //   this.viewCtrl.dismiss();
-  // }
-  
+ Hpage(){
+  this.navigateTo('Wizardhspage', {})
+ } 
+
+Tpage(){
+  this.navigateTo('Wizardtpage', {})
+}
+
 }

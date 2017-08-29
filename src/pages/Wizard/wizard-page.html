@@ -1,11 +1,8 @@
 <ion-header>
   <ion-toolbar color="dark">
-    <ion-buttons start>
-      <button ion-button (click)="onCancel()">
-        <span showWhen="ios,core"> "CLOSE"</span>
-        <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
-      </button>
-    </ion-buttons>
+    
+      
+    
  </ion-toolbar>
 </ion-header>
 
@@ -13,31 +10,10 @@
   
   <img margin class="logo" src="assets/img/icon.png" width="120">
 
-<form action="">
-<ion-list radio-group>
-  <ion-list-header>
-  <h1 style:color="white">Who are you?</h1>
-  </ion-list-header>
-    <ion-item>
-      <ion-label  color="primary">Middle Schooler</ion-label>
-      <ion-radio value="middleschooler" id="MS"></ion-radio>
-    </ion-item>
+<button ion-button round color="primary" (click)=Mpage()>Middle Schooler</button><br>
+<button ion-button round color="primary" (click)=Hpage()>High Schooler</button><br>
+<button ion-button round color="primary" (click)=Tpage()>Teacher</button><br>
 
-    <ion-item>
-      <ion-label color="primary">High Schooler</ion-label>
-      <ion-radio value="highchooler" id="HS"></ion-radio>
-    </ion-item>
 
-    <ion-item>
-      <ion-label color="primary" id="Teach">Teacher</ion-label>
-      <ion-radio value="teacher"></ion-radio>
-    </ion-item>
-  </ion-list>
-  <div padding>
-   <a href="../wizard-hs/wizard-hs-page.html"> <button type="submit" color="primary" ion-button block (click)=Questype() >
-      NEXT 
-    </button></a>
 
-  </div>
-</form>
 </ion-content>

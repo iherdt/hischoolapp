@@ -21,12 +21,12 @@
   </h1>
 </ion-list-header>
   
-  	<ion-item><ion-checkbox [(ngmodel)]="subject-areas" >A</ion-checkbox></ion-item><br>
-    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >B</ion-checkbox></ion-item><br>
-    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >C</ion-checkbox></ion-item><br>
-    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >D</ion-checkbox></ion-item><br>
-    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >E</ion-checkbox></ion-item><br>
-    <ion-item><ion-checkbox [(ngmodel)]="subject-areas" >F</ion-checkbox></ion-item><br>
+  	<ion-item><ion-checkbox name="subject-areas" >A</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox name="subject-areas" >B</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox name="subject-areas" >C</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox name="subject-areas" >D</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox name="subject-areas" >E</ion-checkbox></ion-item><br>
+    <ion-item><ion-checkbox name="subject-areas" >F</ion-checkbox></ion-item><br>
 
     </ion-list>
 
@@ -80,12 +80,12 @@
 </ion-list>
 <h1 style:color="white"> Ideal income </h1>
 <ion-item>
-    <ion-label floating color="primary"> Your Highschool? </ion-label>
-  <ion-input type="text" formControlName="Perfered income">    </ion-input>
+    <ion-label floating color="white" > ...Income? </ion-label>
+  <ion-input type="text"  ></ion-input>
   </ion-item>
-  </ion-list>
+  
   <div padding>
-    <button type="submit" color="primary" ion-button block (click)=Questype() >
+    <button type="submit" color="primary" ion-button block (click)=Questype() (click)=gotomap()>
       NEXT 
     </button>
   

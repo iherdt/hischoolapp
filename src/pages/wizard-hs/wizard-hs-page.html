@@ -19,9 +19,9 @@
   <h1 style:color="white">What's your current Highschool?</h1>
   </ion-list-header>
     
-<ion-item>
-  <ion-label floating color="primary"> Your Highschool? </ion-label>
-<ion-input type="text" formControlName="Current_School">    </ion-input>
+<ion-item >
+  <ion-label floating color="white"> ...Your Highschool? </ion-label>
+<ion-input type="text" >    </ion-input>
 </ion-item>
 </ion-list>
 
@@ -29,13 +29,12 @@
     What areas are you interested in?
   </p>
   
-  	<ion-checkbox [(ngmodel)]="Interest" ><br>
-   <ion-checkbox [(ngmodel)]="Interest" ><br>
-   <ion-checkbox [(ngmodel)]="Interest" ><br>
-    <ion-checkbox [(ngmodel)]="Interest" ><br>
-    <ion-checkbox [(ngmodel)]="Interest" ><br>
-    <ion-checkbox [(ngmodel)]="Interest" ><br>
-  
+  	<ion-checkbox name="Interest" ></ion-checkbox><br>
+      <ion-checkbox name="Interest" ></ion-checkbox><br>
+        <ion-checkbox name="Interest" ></ion-checkbox><br>
+          <ion-checkbox name="Interest" ></ion-checkbox><br>
+            <ion-checkbox name="Interest" ></ion-checkbox><br>
+              <ion-checkbox name="Interest" ></ion-checkbox><br>
 
   <div padding>
     <button type="submit" color="primary" ion-button block (click)=Questype() >
