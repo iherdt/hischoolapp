@@ -1,6 +1,6 @@
 # HiSchool App
 
-A location based HiSchool rating app
+A location based High School rating app
 
 ## Getting Started
 
