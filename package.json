@@ -76,7 +76,7 @@
         "ng2-img-fallback": "0.2.3",
         "ngx-img-fallback": "1.1.3",
         "object-keys": "1.0.11",
-        "parse": "1.9.2",
+        "parse": "2.15.0",
         "rxjs": "5.4.0",
         "sw-toolbox": "3.6.0",
         "uk.co.workingedge.phonegap.plugin.launchnavigator": "^3.2.2",
